@@ -8,7 +8,7 @@ runtime, version R2018b (9.5)](https://www.mathworks.com/products/compiler/matla
 For more info about how to install MCR, see [Install and Configure MATLAB Runtime](https://se.mathworks.com/help/compiler/install-the-matlab-runtime.html).
 
 (2) Verify that a platform-specific Python 3.6 (or below) is installed. If not, install python from [python.org](https://www.python.org). 
-This code was tested with Python 2.7.
+This code was tested with [Python 2.7](https://www.python.org/downloads/release/python-2718/).
 
 #### N.B. Mac users
 `python` installed using Anaconda will apparently not work. You can use `brew` or download directly from [python.org](https://www.python.org). 

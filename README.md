@@ -37,4 +37,23 @@ sh runfftprocdir.sh
 
 ### For Windows:
 
-TBD
+If you used the automated installer to set-up Python and Matlab Runtime, then you are all set. The paths should be already configured.
+
+Open a Windows Command Prompt (press start/windows and type in `cmd` + enter). Navigate (change directory - `cd`) to the folder 
+with the `fftprocdirpy` folder and run.
+```shell
+python start.py
+```
+
+
+### Run-time
+
+N.B.: The `fftprocdirpy` application will recursively check the current directory (`.`) where it is installed, the parent directory (`..`) 
+as well as all folders within for any images ending in `.TIF` format. If any of these folders have no `.TIF` images, then the application
+window will show an empty gallery of images to select (i.e. blank), just press `OK` and close the window to proceed to check the next folder. 
+The code will automatically convert color images to 8-bit grayscale for processing.
+
+
+### Bugs
+
+Please report any bugs via e-mail by including the output on the command line output of the console or terminal window.

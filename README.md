@@ -32,7 +32,7 @@ You can, if you wish, copy/move the entire contents of the `fftprocdir.distrib` 
 
 (1) Open `runfftprocdir.sh` using a text editor and replace 'Path-to-Matlab-Runtime' with the full path to the directory where the 
 MATLAB Runtime (v95) is installed. This is to set the environment variables so that our python wrapper can call the MATLAB Runtime.
-For instance, on my machine, this is `/DATA/Programs/MATLAB/MATLAB_Runtime/`. Comment in/out the lines with a single leading `#`, as appropriate for your OS. 
+For instance, on my machine, this is `/DATA/Programs/MATLAB/MATLAB_Runtime/`. Comment in/out the three lines (to set the dynamic library path, XAPPLRESDIR and execute python/mwpython on start.py) with a single leading `#`, as appropriate for your OS. 
 Be sure to save and close this file.
 
 (2) Open a console or a terminal window, navigate to the `fftprocdir.distrib` folder and run:

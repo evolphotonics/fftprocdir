@@ -24,7 +24,7 @@ Once you have installed a correct version of python (<3.6), however, you need to
 
 After installing the pre-requisites as detailed above, download the zipfile, and extract it. If you do not have write permissions, extract/copy all its contents to a temporary location and change to that directory.
 
-You can, if you wish, copy/move the entire contents of the `fftprocdir.distrib` folder, including the subdirectory `fftprocdirpy` into the folder containing any EM images you wish to analyse. Or you can simply run the package and navigate to the folder containing `TIF` format images, when asked to. These images are preferably organized by taxa or some other criterion of interest (color, tissue type, etc.), as the results will be stored in the working directory you first set. 
+You can, if you wish, copy/move the entire contents of the `fftprocdir-main` folder, including the subdirectory `fftprocdirpy` into the folder containing any EM images you wish to analyse. Or you can simply run the package and navigate to the folder containing `TIF` format images, when asked to. These images are preferably organized by taxa or some other criterion of interest (color, tissue type, etc.), as the results will be stored in the working directory you first set. 
 
 
 
@@ -35,7 +35,7 @@ MATLAB Runtime (v95) is installed. This is to set the environment variables so t
 For instance, on my machine, this is `/DATA/Programs/MATLAB/MATLAB_Runtime/`. Comment in/out the three lines (to set the dynamic library path, XAPPLRESDIR and execute python/mwpython on start.py) with a single leading `#`, as appropriate for your OS. 
 Be sure to save and close this file.
 
-(2) Open a console or a terminal window, navigate to the `fftprocdir.distrib` folder and run:
+(2) Open a console or a terminal window, navigate to the `fftprocdir-main` folder and run:
 
 ```shell
 sh runfftprocdir.sh
@@ -48,7 +48,7 @@ sh runfftprocdir.sh
 In Windows Explorer, navigate to the folder where you copied/moved the contents of `fftprocdir.distib` and double click `start.py`.
 
 (2) Alternatively or in order to debug, open a Windows Command Prompt (press start/windows and type in `cmd` + enter). Navigate (change directory - `cd`) 
-to the `fftprocdir.distrib` folder and run (type + enter) the following:
+to the `fftprocdir-main` folder and run (type + enter) the following:
 ```shell
 python start.py
 ```

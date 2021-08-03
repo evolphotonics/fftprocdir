@@ -1,4 +1,4 @@
-# start.py
+#!/usr/bin/env python
 import fftprocdirpy
 
 def main():
@@ -12,3 +12,5 @@ def main():
 
 if __name__ == "__main__":
         main()
+        
+raw_input("Press Enter key to exit.")        
